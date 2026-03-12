@@ -304,7 +304,9 @@ def calculate_advanced_metrics(query, ai_response, reference_response, context_l
         "grounding": round(grounding_score, 2)
     }
 
-
+# ============================================================
+# 9. DEMO
+# ============================================================
 
 pregunta = "¿Cuándo INTERBANK hara modificaciones al cronograma de pagos?"
 respuesta, contextos = generate_rag_response(pregunta)
